@@ -1,0 +1,17 @@
+# Clone this repository
+git clone https://github.com/heliomarpm/udemy-downloader-gui
+# Go into the repository
+cd udemy-downloader-gui
+
+# Copy file environments
+copy .env.example .env
+-- or if linux --
+cp .env.example .env
+
+# Install dependencies
+npm install
+# Run the app
+npm start
+-- or --
+# Run the app mode develop
+npm run dev
